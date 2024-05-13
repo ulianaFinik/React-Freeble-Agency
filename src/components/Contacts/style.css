@@ -1,0 +1,53 @@
+/*========= CONTACTS ==========*/
+.contacts {
+    background: #fbfbfb;
+}
+.contacts__container {
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+}
+.contacts__link {
+    background-color: #fbfbfb;
+    padding-top: 69px;
+    padding-bottom: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    transition: background-color .3s ease-in-out;
+}
+.contacts__link-icon {
+    width: 35px;
+    height: 35px;
+    transition: opacity .3s ease-in-out;
+}
+.contacts__link .contacts__link-icon:hover {
+    opacity: 0.1;
+}
+.contacts__link:hover {
+    background-color: #70bd59;
+}
+
+.contacts__link:hover .contacts-link__name,
+.contacts__link:hover .contacts-link__text {
+    color: #fff
+}
+.contacts-link__name {
+    color: #373737;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2.667px;
+    transition: color .3s ease-in-out;
+}
+.contacts-link__text {
+    text-align: center;
+    color: #373737;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.556px;
+    opacity: .8;
+    transition: color .3s ease-in-out;
+}
